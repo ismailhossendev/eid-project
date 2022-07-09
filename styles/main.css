@@ -1,0 +1,170 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+.container{
+    margin: 0 10%;
+    z-index: 10;
+}
+.hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;  
+    background: url(../images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+
+.hero h1{
+    font-size: 6rem;
+    color: #fff;
+    width: 70%;
+}
+.hero p{
+    width: 300px;
+    font-size: 2rem;
+    margin: 5% 0;
+    color: #fff;
+}
+.btn-primary{
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: tomato;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 800;
+}
+.sec2{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10%;
+    
+}
+.half{
+    width: 40%;
+}
+.sec2 video{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    
+}
+.sec2 h1{
+    font-size: 5rem;
+}
+.sec2 p{
+font-size: 2rem;
+margin: 5% 0;
+}
+
+.sec3{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10% 0;
+}
+.sec3 img{
+    width: 456px;
+    height: 477px;
+}
+.sec3 h1{
+    font-size: 5rem;
+}
+.sec3 p{
+    font-size: 2rem;
+    margin: 20px 0;
+}
+.sec2-contnet{
+    margin-left: 20px;
+}
+.sec4{
+    height: 50vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto;
+    padding: 10px;
+    margin: 0 10%;
+    height: 60vh;
+    
+  }
+.grid-item {
+    display: flex;
+    flex-direction:row;
+    font-size: 2rem;
+    text-align: left;
+    background-color: #FEF4F5;
+    margin: 5px;
+    padding: 30px;   
+    border-radius: 10px;
+  }
+.grid-item h1{
+    font-size: 2rem;
+}
+.grid-item p{
+    font-size: 1.8rem;
+}
+.grid-item img{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+} 
+.sec4-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.sec4-title h1{
+    font-size: 5rem;
+}
+.sec4-title p{
+    font-size: 2rem;
+}
+
+
+
+/* reposive code */
+@media only screen and (max-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-size: 30%;
+    }
+    .container{
+        margin: 0 5%;
+    }
+    .hero{
+        height: 35vh;
+        width: 100%;
+    }
+    .sec2{
+    flex-wrap: wrap;
+    }
+    .half{
+        width: 100%;
+    }
+    .sec3{
+        margin: 0 5%;
+    
+    }
+    .sec3 img{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+    .sec2-contnet{
+        margin-left: 2px;
+    }
+  }
